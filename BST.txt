@@ -1,21 +1,21 @@
 DRAW A BST
 
-    3
-1       4
-            6
-        2       9
-            5
-                7
+                3
+            1       4  
+                        6
+                2   5        9
+                        7
+
 
 REMOVE THE ROOT
 
-1. Find the minimum value in the right subtree: 2
-2. Replace value of the node to be removed with found minimum: 3 -> 2
+1. Find the minimum value in the right subtree: 5
+2. Replace value of the node to be removed with found minimum: 3 -> 5
 3. Apply remove to the right subtree to remove the duplicate: remove -> 2
 
-    2
-1       4
-            6
-                9
-            5
-                7
+ 
+        2    
+    1       4
+        5       6
+
+                7   9
